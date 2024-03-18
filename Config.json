@@ -1,0 +1,21 @@
+{
+    "DEFAULT": {
+      "NUMBER_OF_MAPPER":  10,
+      "NUMBER_OF_REDUCER": 3,
+      "NUMBER_OF_SHUFFLER": 300,
+      "FILE_PATH": "data/input/text.txt",
+      "OUTPUT_PATH" : "data/output"
+    },
+    "SPLITTER": {
+      "SPLITTER_OUTPUT_DIR": "data/output/a_splitter"
+    },
+    "MAPPER": {
+      "MAPPER_OUTPUT_DIR": "data/output/b_mapper"
+    },
+    "SHUFFLER": {
+      "SHUFFLER_OUTPUT_DIR": "data/output/c_shuffler"
+    },
+    "REDUCER": {
+      "REDUCER_OUTPUT_DIR": "data/output/d_reducer"
+    }
+}
