@@ -1,0 +1,1 @@
+from a_splitter import __init__
